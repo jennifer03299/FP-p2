@@ -5,6 +5,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	position: fixed;
 
 }
 
@@ -17,7 +18,10 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 	z-index: 2;	
 	height: 50vh;
+	width: 40vw;
 }
+
+
 
 
 .banner{
@@ -27,7 +31,7 @@
 	margin-top: 30px;
 }
 .btn-row{
-	margin-top: 40px;
+	margin-top: 20px;
 
 }
 
@@ -120,7 +124,14 @@ h4{
 	animation-fill-mode: forwards;
 	animation-duration: 3s;
 	line-height: 10px;
+	transition: all 0.5s;
 
+
+}
+.btn:hover{
+	transform: scale(1.2);
+	transition-delay: 0.1s;
+	transform-origin: center;
 }
 
 .btn.btn-1{
